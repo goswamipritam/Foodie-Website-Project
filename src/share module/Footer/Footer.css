@@ -1,0 +1,32 @@
+/* Footer.css */
+
+/* General footer styling */
+footer {
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Typography for all text inside the footer */
+  footer h6, footer p {
+    margin: 0;
+  }
+  
+  /* Styling for icon buttons */
+  footer .MuiIconButton-root {
+    transition: transform 0.3s ease;
+  }
+  
+  footer .MuiIconButton-root:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    footer {
+      text-align: center;
+    }
+  
+    footer .MuiIconButton-root {
+      margin-bottom: 8px;
+    }
+  }
+  
